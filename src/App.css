@@ -1,3 +1,7 @@
+body {
+  background-color: dimgrey;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,44 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card {
+  margin: 2vh 10vw;
+  padding: 2vw;
+  border-radius: 2vh;
+  border: 10px;
+}
+.card .text-box {
+  text-align: justify;
+}
+
+.component-a {
+  border-style: double;
+  background-color: cadetblue;
+  color: antiquewhite;
+}
+
+.component-b {
+  border-style: dashed;
+  background-color: darkgoldenrod;
+  color: darkslateblue;
+}
+
+.component-c {
+  border-style: dotted;
+  background-color: lightcoral;
+  color: khaki;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: slateblue;
+  height: 7vh;
+}
+.MuiButton-outlined {
+  margin: 2vw;
+  height: 5vh;
 }
