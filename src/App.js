@@ -7,10 +7,6 @@ import { Routes, Route, Link } from "react-router-dom";
 import { Button } from "@mui/material";
 
 function App() {
-  // let components = { A: ComponentA, B: ComponentB, C: ComponentC };
-  // let [componentToDisplay, setComponentToDisplay] = useState("A");
-  // let CorrectComponent = components[componentToDisplay];
-
   return (
     <div className="App">
       <nav>
